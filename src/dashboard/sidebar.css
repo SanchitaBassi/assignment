@@ -1,0 +1,49 @@
+.menu-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 110vh;
+    background-color: black;
+    width: 15vw;
+    }
+    
+    .logo-sidebar{
+        text-align: center;
+        padding: 20px;
+        color: #eee;
+        background-color: black;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .logo-icon{
+        font: size 1.4rem ;
+    }
+    
+    .menu--list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: black;
+    
+    }
+    
+    .menu--list .item-sidebar{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 1.1rem;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        color: #eee;
+    
+    }
+    
+    .menu--list .item-sidebar:hover{
+        background-color: #ddd;
+        color: aliceblue;
+    }

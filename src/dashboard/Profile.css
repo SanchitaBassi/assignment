@@ -1,0 +1,121 @@
+.profile{
+    flex: 1;
+  
+  display: flex;
+  flex-direction: column;
+  /* gap: 2.3rem; */
+  /* height: 110vh; */
+  background-color: black;
+  width: 15vw;
+  margin-top: 30rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+ 
+}
+
+.profile-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title{
+    padding: 20px;
+}
+
+.edit{
+    background: #dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+    color: #969393 ;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit .icon:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in-out ;
+    cursor: pointer;
+}
+
+.user-image{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.user-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.user-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.user-profile{
+    /* height: 85%; */
+    /* margin-top: 2rem; */
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 1.5rem;
+
+}
+
+.course-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    gap: 10px;
+    margin-top: -2rem;
+}
+.user-courses{
+    background: #fff;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.course{
+    background:black ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+
+.course-details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+
+}
+
+
+
+.student-names{
+   
+    margin-left: -7.8rem;
+    margin-top: 4rem;
+    gap: 20px;
+
+    
+
+}
+

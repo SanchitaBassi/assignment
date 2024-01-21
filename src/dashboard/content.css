@@ -1,0 +1,89 @@
+.content{
+    width: 75%;
+    height: 100%;
+
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    /* margin-top: 5.2rem; */
+}
+
+.header-title{
+    color: #526d82;
+
+}
+
+.header-activity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notify{
+    background-color: #dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+    color: #969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+
+.icon-sidebar:hover{
+   transform: scale(1.3);
+   cursor: pointer;
+}
+
+.db-card-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* margin-top: 0.5rem; */
+}
+
+.db-card{
+    flex: 1;
+    background-color: #dde6ed;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+    /* margin-top: 1rem; */
+}
+
+.db-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card-cover{
+    background-color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+
+}
+
+.db-card-title{
+    background-color: #ffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: black;
+    border-radius: 10px;
+}
